@@ -1,8 +1,12 @@
 {
-  "name": "mod-13",
+  "name": "@leo-fcx/mod-13",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/leo-fcx/number-to-lcd.git"
+  },
   "scripts": {
     "test": "cross-env NODE_ENV=test nyc --all mocha ./src/**/*.spec.js --compilers js:babel-register",
     "test:watch": "mocha --watch ./src/**/*.spec.js --compilers js:babel-register"
